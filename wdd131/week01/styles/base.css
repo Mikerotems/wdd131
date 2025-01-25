@@ -1,0 +1,92 @@
+body {
+    font-family: calibri, Arial, sans-serif;
+    margin: 10px 50px;
+    padding: auto;
+}
+main{
+    width: 500px;
+    display: grid;
+    align-items: center;
+}
+header {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #0a253f;
+    margin: 0 auto 2rem;
+    max-width: auto;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+.links a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    flex: 1 1 auto;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    height: auto;
+    width: 500px; 
+    display: absolute;   
+}
+section h1{
+    margin: 0;
+    padding: 0.1rem;
+    background-color: #0a253f;
+    color: #fff;
+    text-align: center;
+}
+.card img{
+    float: right;
+    position: relative;
+    margin: 0.2rem;
+}
+figure{
+    float: left;
+    margin: 0.1rem;
+}
+figcaption{
+    text-align: center;
+    font-style: italic;
+}
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer p {
+    margin: 0;
+}
