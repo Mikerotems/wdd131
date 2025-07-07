@@ -1,12 +1,11 @@
 
 
-document.addEventListener("DOMContentLoaded", function() {
-     
+document.addEventListener("DOMContentLoaded", function () {
+
     const currentYear = new Date().getFullYear();
- 
-    document.getElementById("currentyear").textContent = currentYear;
+    document.querySelector("footer p:nth-of-type(1)").innerHTML = `&copy; ${currentYear}`;
 
-     const lastModified = document.lastModified;
+    const lastModified = document.lastModified;
+    document.querySelector("footer p:nth-of-type(2)").innerHTML = `Last Modified: ${lastModified}`;
+})
 
-     document.getElementById("lastModified").textContent = `Last Modified: ${lastModified}`;
-});
