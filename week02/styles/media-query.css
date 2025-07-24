@@ -1,19 +1,25 @@
 body {
     font-family: 'Roboto', calibri;
+    display: grid;
 }
-header, main, footer{
+
+header,
+main,
+footer {
     max-width: 640px;
     margin: 1rem auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 10px;
     background-color: rgb(95, 95, 207);
 }
-main{
+
+main {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
 }
-section{
+
+section {
     padding: 1rem;
     background-color: #fff;
 }
