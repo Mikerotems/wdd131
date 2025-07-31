@@ -1,0 +1,29 @@
+@media screen and (min-width: 662px) {
+
+    .weather {
+        grid-column: 2/3;
+    }
+
+    .info {
+        grid-column: 1/3;
+        padding-left: 2rem;
+    }
+
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    footer {
+        background-color: var(--main-green);
+        text-align: center;
+        color: #f4f4f4;
+        padding: 10px;
+    }
+
+    #lastmodified {
+        font-size: 16px;
+        color: white;
+    }
+}

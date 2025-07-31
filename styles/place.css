@@ -1,0 +1,39 @@
+:root {
+    --main-red: #d32f2f;
+    --main-green: #388e3c;
+    --main-white: #fff;
+    --font-family: 'Segoe UI', sans-serif, 'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--font-family);
+    background-color: var(--main-white);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+}
+section{
+    border-bottom-style: inset ;
+}
+header {
+    background-color: var(--main-green);
+    color: var(--main-white);
+    text-align: center;
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--main-green);
+    color: var(--main-white);
+    padding: 1em;
+    margin-top: 2em;
+}
