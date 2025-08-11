@@ -1,0 +1,106 @@
+:root {
+    --primary-bg: #2c3e50;
+    --primary-text: #fff;
+    --accent: darkslateblue;
+    --card-border: #ccc;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header styling */
+header {
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    padding: 1rem;
+    text-align: left;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    margin-bottom: 1rem;
+}
+
+nav button {
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.temple-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    max-width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.temple-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* harmburger styling */
+#harmburger {
+    display: grid;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+
+}
+
+#harmburger:hover {
+    cursor: pointer;
+}
+
+/* navigation menu */
+#navigation {
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    /* background-color: #333; */
+}
+
+#navigation li {
+    list-style-type: none;
+    text-align: center;
+    padding: 1rem;
+    /* border: 1px solid white; */
+}
+
+#navigation a {
+    color: white;
+    text-decoration: none;
+    /* border: 1px solid white; */
+    font-size: 1.2rem;
+}
+
+av a:hover,
+nav li:hover {
+    background-color: var(--accent);
+    color: var(--primary-text);
+}
+
+.sociallinks img {
+    height: 30px;
+    width: 30px;
+    flex: 1 1 100%;
+}
+
+/* show navigation with js */
+
+#navigation.show {
+    display: flex;
+    flex-direction: column;
+}
