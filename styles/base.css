@@ -8,13 +8,13 @@
     --footer-text: #ecf0f1;
     --card-border: #dfe6e9;
     --text-color: #333;
-    width: 1200px;
+    width: max width;
     margin-left: 20px;
-    
+
 }
 
 body {
-    font-family: calibri, Arial, sans-serif;
+    font-family: calibri, "Roboto" serif;
     margin: 10px 50px;
 }
 
@@ -115,7 +115,7 @@ aside h1 {
     padding: 0.1rem;
     color: var(--primary-color);
     text-align: center;
-
+    font-size: 22px;
 }
 
 .web {
