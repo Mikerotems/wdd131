@@ -10,6 +10,7 @@
     --text-color: #333;
     width: 1200px;
     margin-left: 20px;
+    
 }
 
 body {
@@ -82,7 +83,7 @@ section {
     width: 500px;
 }
 
-section h1 {
+section h2 {
     margin: 0;
     padding: 0.1rem;
     background-color: var(--primary-color);
@@ -109,7 +110,7 @@ aside {
     padding-top: 10px;
 }
 
-aside h2 {
+aside h1 {
     margin: 0;
     padding: 0.1rem;
     color: var(--primary-color);
