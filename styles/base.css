@@ -8,6 +8,8 @@
     --footer-text: #ecf0f1;
     --card-border: #dfe6e9;
     --text-color: #333;
+    width: 1200px;
+    margin-left: 20px;
 }
 
 body {
@@ -19,8 +21,9 @@ body {
 main {
     width: 500px;
     display: grid;
+    justify-content: space-between;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 50px;
     align-items: center;    
 }
 
@@ -39,7 +42,7 @@ nav {
     background-color: var(--secondary-color);
     margin: 0 auto 2rem;
     max-width: auto;
-    display: flexs;
+    display: flex;
 }
 
 .links {
@@ -87,17 +90,42 @@ section h1 {
     color: var(--header-text);
     text-align: center;
 }
-
+.card{
+    display: inline-block;
+    margin: 0 auto;
+    width: 450px;
+}
 .card img {
     float: right;
     position: relative;
     margin: 0.2rem;
 }
-/*.card {
-    text-align: justify;
-    font-size: 1.1rem;
-    color: var(--text-color);
-}       */
+aside{
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    padding-top: 10px;
+}
+aside h2{
+    margin: 0;
+    padding: 0.1rem;
+    background-color: none;
+    color: var(--primary-color);
+    text-align: center;
+  
+}
+.web{
+    display: block;
+    margin: 5rem auto;
+    color: var(--primary-color);
+    background-color: var(--background-color)
+}
+.web a{
+    text-decoration: none;
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 figure {
     float: left;
     margin: 0.1rem;
@@ -113,8 +141,7 @@ footer {
     color: var(--footer-text);
     text-align: center;
     padding: 2px 0;
-    width: 100%;
-    position: fixed;
+
 }
 
 footer p {
