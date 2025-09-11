@@ -15,7 +15,6 @@
 body {
     font-family: calibri, Arial, sans-serif;
     margin: 10px 50px;
-    padding: auto;
 }
 
 main {
@@ -24,7 +23,7 @@ main {
     justify-content: space-between;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
-    align-items: center;    
+    align-items: center;
 }
 
 header {
@@ -38,22 +37,23 @@ header {
     display: block;
     font-size: 1.8rem;
 }
+
 nav {
     background-color: var(--secondary-color);
     margin: 0 auto 2rem;
-    max-width: auto;
+    width: max-content;
     display: flex;
+    justify-content: space-evenly
 }
 
 .links {
-    display: flex;
     flex-wrap: wrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
 }
 
 .links a {
-    display: block;
+    justify-content: space-between;
     color: var(--header-text);
     text-align: center;
     padding: 14px 16px;
@@ -80,7 +80,6 @@ section {
     border-radius: 5px;
     height: auto;
     width: 500px;
-    display: absolute;
 }
 
 section h1 {
@@ -90,42 +89,51 @@ section h1 {
     color: var(--header-text);
     text-align: center;
 }
-.card{
+
+.card {
     display: inline-block;
     margin: 0 auto;
     width: 450px;
 }
+
 .card img {
     float: right;
     position: relative;
     margin: 0.2rem;
 }
-aside{
+
+aside {
     display: block;
     margin: 0 auto;
     width: 450px;
     padding-top: 10px;
 }
-aside h2{
+
+aside h2 {
     margin: 0;
     padding: 0.1rem;
-    background-color: none;
     color: var(--primary-color);
     text-align: center;
-  
+
 }
-.web{
+
+.web {
     display: block;
+    align-items: left;
     margin: 5rem auto;
     color: var(--primary-color);
-    background-color: var(--background-color)
+    background-color: var(--background-color);
 }
-.web a{
+
+.web a {
+    display: block;
+    padding: 5px;
     text-decoration: none;
     color: var(--accent-color);
     font-weight: bold;
     font-size: 1.2rem;
 }
+
 figure {
     float: left;
     margin: 0.1rem;
