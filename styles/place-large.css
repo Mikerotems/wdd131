@@ -41,6 +41,15 @@
         color: var(--main-white);
         margin-left: -10px;
     }
+        /* ...existing code... */
+        .weather h2::after {
+            content: "⛅ ";
+            font-size: 1.2rem;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+    
+        /* ...existing code... */
 .hero{
         text-align: center;
         max-width: fit-content;
