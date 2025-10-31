@@ -8,13 +8,12 @@
     --footer-text: #ecf0f1;
     --card-border: #dfe6e9;
     --text-color: #333;
-    width: max width;
     margin-left: 20px;
 
 }
 
 body {
-    font-family: calibri, "Roboto" serif;
+    font-family: calibri, "Roboto", serif;
     margin: 10px 50px;
 }
 
@@ -120,7 +119,6 @@ aside h1 {
 
 .web {
     display: block;
-    align-items: left;
     margin: 5rem auto;
     color: var(--primary-color);
     background-color: var(--background-color);
