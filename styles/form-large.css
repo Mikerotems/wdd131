@@ -1,0 +1,38 @@
+@media screen and (min-width:800px) {
+    body {
+        padding: 1.5rem 2rem
+    }
+
+    header {
+        padding: 0.9rem 1rem
+    }
+
+    #title {
+        font-size: 1.05rem
+    }
+
+    nav.links a {
+        padding: 0.5rem 0.8rem
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+    }
+
+    form {
+        width: 720px;
+        padding: 1.6rem;
+    }
+
+    /* Make the rating labels larger on wide screens */
+    fieldset label[for^="rating"] {
+        font-size: 1.25rem
+    }
+
+    /* wide footer spacing */
+    footer {
+        margin-top: 1.6rem;
+        font-size: 0.95rem
+    }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <script src="scripts/products.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A photo album showcasing various temples in Africa.">
+    <meta name="author" content="Oluwarotimi Michael">
+    <title>Product Review Form </title>
+</head>
+
+<body>
+    <header>
+        <span id="title">Product Review</span>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <!-- Product Name -->
+            <label for="product">Product Name:</label>
+            <select id="productSelect" name="product" required>
+                <option value="" disabled selected>Select a Product ...</option>
+            </select>
+
+            <!-- Overall Rating -->
+            <fieldset>
+                <legend>Overall Rating:</legend>
+                <!-- Radios must share the same name so only ONE can be selected -->
+                <label for="rating1">☆</label>
+                <input type="radio" id="rating1" name="rating" value="1" required>
+
+                <label for="rating2">☆☆</label>
+                <input type="radio" id="rating2" name="rating" value="2" required>
+
+                <label for="rating3">☆☆☆</label>
+                <input type="radio" id="rating3" name="rating" value="3" required>
+
+                <label for="rating4">☆☆☆☆</label>
+                <input type="radio" id="rating4" name="rating" value="4" required>
+
+                <label for="rating5">☆☆☆☆☆</label>
+                <input type="radio" id="rating5" name="rating" value="5" required>
+            </fieldset>
+            <br>
+
+            <!-- Date of Installation -->
+            <label for="installDate">Date of Installation:</label>
+            <input type="date" id="installDate" name="installDate" required>
+            <br><br>
+
+            <!-- Useful Features -->
+            <fieldset>
+                <legend>Which feature did you find useful in the product?
+                    <br>(check all that apply)</legend>
+                <label for="feature1">Durability</label>
+                <input type="checkbox" id="feature" name="features" value="Durability">
+                <label for="feature2">Ease of Use</label>
+                <input type="checkbox" id="feature" name="features" value="Ease of Use">
+                <label for="feature3">Performance</label>
+                <input type="checkbox" id="feature" name="features" value="Performance">
+                <label for="feature2">Design</label>
+                <input type="checkbox" id="feature" name="features" value="Design">
+            </fieldset>
+            <br>
+
+            <!-- Written Review -->
+            <label for="review">Written Review:</label><br>
+            <textarea id="reviewForm" name="review" rows="5" cols="40"></textarea>
+            <br><br>
+
+            <!-- User Name -->
+            <label for="username">Your Name:</label>
+            <input type="text" id="username" name="username" optional>
+            <br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Post Review">
+
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="current-year"></span> Oluwarotimi Michael Ademola </p>
+        <p> Last modified: <span id="last-modified"></span></p>
+    </footer>
+</body>
+
+</html>
