@@ -1,0 +1,25 @@
+---------------------------------------------------------
+| Foodie Home (Logo/Title)        | ☰ (Hamburger Menu) |
+---------------------------------------------------------
+| [Collapsed/Expandable Navigation]                     |
+|  - Home                                               |
+|  - Food Specie                                        |
+|  - Reference                                          |
+|  - Contacts                                           |
+---------------------------------------------------------
+| Our Homepage - Welcome                               |
+|-------------------------------------------------------|
+| About Us                                              |
+|  [Paragraphs stacked vertically]                      |
+|-------------------------------------------------------|
+| Frequently Asked Questions                            |
+|  Q1: What is Foodie Home?                             |
+|  Q2: Who can use Foodie Home?                         |
+|  Q3: How can I find recipes?                          |
+---------------------------------------------------------
+| [Telegram]                                            |
+| [Facebook]                                            |
+| [Instagram]                                           |
+| © 2025 Oluwarotimi Michael Ademola                    |
+| Last modified: [date]                                 |
+---------------------------------------------------------

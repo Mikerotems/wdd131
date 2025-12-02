@@ -1,0 +1,18 @@
+---------------------------------------------------------
+| Foodie Home (Logo/Title)        | Home | Food Specie  |
+|                                  | Reference | Contact |
+---------------------------------------------------------
+| Our Homepage - Welcome                               |
+|-------------------------------------------------------|
+| About Us                                              |
+|  [Paragraphs about mission, accessibility, community] |
+|-------------------------------------------------------|
+| Frequently Asked Questions                            |
+|  Q1: What is Foodie Home?                             |
+|  Q2: Who can use Foodie Home?                         |
+|  Q3: How can I find recipes?                          |
+---------------------------------------------------------
+| [Telegram Icon] [Facebook Icon] [Instagram Icon]      |
+| © 2025 Oluwarotimi Michael Ademola                    |
+| Last modified: [date]                                 |
+---------------------------------------------------------
